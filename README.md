@@ -1,25 +1,21 @@
 # 万里云舒
 
-写代码的，主要在 Windows 上干活。
+在 Windows 上写代码，主要做桌面端与全栈开发。精力集中在两件事上：把教学场景里真正能用的工具做出来，以及把计算机基础的底子打牢。
 
-手头的事有两件。一件是「开物芯屿」，给编程课用的离线教学阅读器：Electron 加 Vue3，整包带七门课的笔记和三个能真跑代码的沙箱——Python 走 Pyodide，网页三件套、Vue SFC 和 ECharts 各有各的跑法，全程不联网。另一件是 DataStructure-C，照着严蔚敏的教材把数据结构拆成 65 个能独立编译的 C 模块，每个都带断言测试和随机对拍，算是给自己的底子还债。
+目前在维护的项目有两个。「开物芯屿」是一个离线教学阅读器，Electron 44 加 Vue 3 实现，内置七门编程课程的笔记和三个可运行代码的沙箱（HTML/CSS/JS、基于 Pyodide 的 Python、Vue SFC），以单安装包交付，全程离线。「DataStructure-C」按严蔚敏教材的体系，把常用数据结构实现为 65 个可独立编译的 C 语言模块，每个模块附带断言测试与随机对拍。
 
-2026 年打了一场 openvela 的 AI Contest，在 NuttX 上耗了几个月：交叉编译、裁剪系统、往开发板上搬图形界面，最后和队友交出一份完整的作品。比赛结束，仓库清掉了，代码在本地留了份完整备份。
+2026 年参加过 openvela AI Contest，在 NuttX 上做了数月交叉编译、系统裁剪与图形界面移植，与队友交付了完整参赛作品。比赛结束后参赛仓库已清理，代码留有本地归档。
 
-惯用的东西：TypeScript 和 Vue3 写前端，Java 和 Spring Boot 写后端，偶尔回到 C 里跟内存打交道。工具链用得杂，Vite、Electron、MyBatis，能跑就行。
-
-不追热点，做的都是自己用得上的东西。
+常用的语言与框架：TypeScript、Vue3、Electron；Java、Spring Boot；C。工程链路涉及 Vite、Electron Builder、MyBatis。不追热点，做的都是自己用得上的东西。
 
 ---
 
-# Wanli Yunshu
+# Wanli Yunshu (万里云舒)
 
-A developer working mostly on Windows.
+A developer working on Windows, mostly on desktop and full-stack work. Two things occupy most of my time: building tools that hold up in real classrooms, and keeping computer-science fundamentals in order.
 
-Two things keep me busy. One is Kaiwu Xinyu (开物芯屿), an offline teaching reader for programming courses: Electron and Vue3, shipping notes for seven courses and three sandboxes that actually run code — Python through Pyodide, plus separate runners for web basics, Vue SFC and ECharts. No network required. The other is DataStructure-C, where I rebuilt the classic Chinese data-structures textbook as 65 independently compilable C modules, each with assertion tests and randomized cross-checks. Call it paying down the fundamentals.
+Two projects are under active maintenance. Kaiwu Xinyu (开物芯屿) is an offline teaching reader built on Electron 44 and Vue 3 — notes for seven programming courses plus three sandboxes that actually run code (HTML/CSS/JS, Python on Pyodide, and Vue SFC), delivered as a single installer that never touches the network. DataStructure-C reimplements the classic Chinese data-structures textbook as 65 independently compilable C modules, each with assertion tests and randomized cross-checks.
 
-In 2026 I joined the openvela AI Contest and spent months inside NuttX: cross-compiling, trimming the system, getting a UI onto a dev board, and shipping a complete entry with my team. The contest is over; the repos are gone from this account, the code lives on in a local archive.
+In 2026 I took part in the openvela AI Contest, spending months on NuttX: cross-compilation, system trimming, and porting a UI onto development boards, shipped as a complete team entry. The contest repositories have since been removed; the code survives in a local archive.
 
-Tools I reach for: TypeScript and Vue3 on the front end, Java with Spring Boot on the back end, C whenever memory matters. The toolchain is a mixed bag — Vite, Electron, MyBatis — whatever gets it running.
-
-I don't chase trends. I build things I would use myself.
+Languages and frameworks I work with: TypeScript, Vue3 and Electron on the front end; Java and Spring Boot on the back end; C where it matters. Tooling includes Vite, Electron Builder and MyBatis. I don't chase trends — I build things I would use myself.
